@@ -18,7 +18,7 @@
     [(eq? x1 'Abort) (exit)])
  
   (define (system_loop)
-    (display "Enter an arithmetic function/operation: ")
+    (display "Enter an arithmetic function/operation (+ - * /): ")
     (define operation (read))
     (newline)
 
