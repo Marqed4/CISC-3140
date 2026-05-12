@@ -1,0 +1,9 @@
+#lang racket
+
+(define appearances 0)
+
+(define special_appearance
+  (lambda (listObj)
+    (if (null? listObj)
+        (cond
+          [(eq? x2 'Reset) (Start)]))))
